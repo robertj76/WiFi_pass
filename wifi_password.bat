@@ -41,9 +41,9 @@ goto menu
 
 :2
 cls
-echo Eksport profili i haseł do pliku XML.
+echo Eksport profili i haseł do XML.
 netsh wlan export profile folder=C:\ key=clear | findstr Key
-echo Eksport został wykonany.
+echo Eksport został wykonany na dysk C:.
 pause
 goto menu
 
